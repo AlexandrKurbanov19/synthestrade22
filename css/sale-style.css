@@ -127,3 +127,25 @@ body {
 .friend {
 
 }
+
+/*media*/
+
+@media (max-width: 780px) {
+    .header-top { display: flex;
+     flex-wrap: wrap;
+ height: 18vh;
+ margin: 0 auto;}
+}
+ 
+ @media (max-width: 1065px) {
+     .header-center {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding-top: 250px;
+     }
+     .sale-img {
+         width: 40%;
+     }
+ }
